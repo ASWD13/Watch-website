@@ -1,0 +1,120 @@
+body {
+    background-color: #181818;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: white;
+}
+
+
+.navbar-toggler {
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+}
+.navv {
+    position: fixed;
+    width: 100%;
+}
+
+#navvbar {
+    background-color: black;
+    box-shadow: 0 4px 8px rgba(255,255,255,0.2);
+}
+
+#navvbar a {
+    color: white;
+}
+
+#navvbar i {
+    color: white;
+}
+
+#navvbar a:hover {
+    color: #3498db;
+    text-decoration: overline;
+}
+
+
+
+.navbar-nav {
+    margin-left: 5rem;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.navv form {
+    padding: 10px;
+}
+
+.navv form button {
+    color: #3498db;
+    border: 1px dotted #3498db;
+}
+
+.navv form button:hover {
+    background-color: #3498db;
+}
+
+.navbar-brand {
+    padding: 5px;
+    font-size: 30px;
+}
+
+
+.review {
+    border: 1px dotted #3498db;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#productcont {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+#productcont img {
+    width: 100%;
+    height: 100%;
+}
+
+.col-md-6 p {
+    font-size: 18px;
+}
+
+.col-md-6 .btn-primary {
+    background-color: #3498db;
+    padding: 20px;
+}
+
+.col-md-6 .btn-primary:hover {
+    background-color: #2474aa;
+}
+
+#features {
+    padding: 10px;
+    margin-top: 40px;
+    background-color: #f7fbf4;
+    color: black;
+}
+
+#features .col-md-12 {
+    text-align: center;
+    font-size: 20px;
+}
+
+#topbtn {
+    font-size: 25px;
+    width: 20%;
+    align-self: center;
+    background-color: gray;
+    border: 1px solid gray;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#topbtn:hover {
+    color: white;
+    background-color: rgb(94, 93, 93);
+}
